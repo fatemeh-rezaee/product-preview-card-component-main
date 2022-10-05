@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: hsl(30, 38%, 92%);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+}
+.container {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+.image {
+  width: 400px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.text {
+  background-color: hsl(0, 0%, 100%);
+  padding: 5%;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 40px;
+}
+.perfume {
+  color: hsl(228, 12%, 48%);
+  margin-bottom: 30px;
+  letter-spacing: 3px;
+}
+.title1 {
+  color: black;
+  font-family: "Fraunces", serif;
+  margin-bottom: 25px;
+  font-size: 40px;
+}
+.paragraph {
+  color: hsl(228, 12%, 48%);
+  margin-bottom: 25px;
+  line-height: 30px;
+}
+.prices {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 30px;
+}
+.title2 {
+  color: hsl(158, 36%, 37%);
+  font-family: "Fraunces", serif;
+  font-size: 35px;
+}
+.par {
+  color: hsl(228, 12%, 48%);
+  text-decoration: line-through;
+}
+.button {
+  width: 300px;
+  height: 60px;
+  background-color: hsl(157, 33%, 22%);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+}
+.icon {
+  margin-right: 10px;
+}
+.paragraph2 {
+  color: hsl(0, 0%, 100%);
+}
+@media screen and (max-width:375px){
+  body {
+    width: 100%;
+    background-color: hsl(30, 38%, 92%);
+    height: 100vh;
+    display:grid;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+  }
+  .container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .image {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  .text {
+    background-color: hsl(0, 0%, 100%);
+    padding: 5%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 40px;
+  }
+  .perfume {
+    color: hsl(228, 12%, 48%);
+    margin-bottom: 30px;
+    letter-spacing: 3px;
+  }
+  .title1 {
+    color: black;
+    font-family: "Fraunces", serif;
+    margin-bottom: 25px;
+    font-size: 40px;
+  }
+  .paragraph {
+    color: hsl(228, 12%, 48%);
+    margin-bottom: 25px;
+    line-height: 30px;
+  }
+  .prices {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 30px;
+  }
+  .title2 {
+    color: hsl(158, 36%, 37%);
+    font-family: "Fraunces", serif;
+    font-size: 35px;
+  }
+  .par {
+    color: hsl(228, 12%, 48%);
+    text-decoration: line-through;
+  }
+  .button {
+    width: 300px;
+    height: 60px;
+    background-color: hsl(157, 33%, 22%);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+  }
+  .icon {
+    margin-right: 10px;
+  }
+  .paragraph2 {
+    color: hsl(0, 0%, 100%);
+}
+}
